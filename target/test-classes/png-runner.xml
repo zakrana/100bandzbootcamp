@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="proctorandgamble smoke proctorandgamble">
+    <parameter name="url" value="https://www.pggoodeveryday.com/"></parameter>
+    <parameter name="browser" value="chrome"></parameter>
+    <parameter name="os" value="windows"></parameter>
+
+    <test name = "png">
+        <classes>
+                        <class name="apps.pngtest.HomeTest"/>
+            <!--            <class name="apps.pngtest.RewardsTest"/>-->
+            <!--            <class name="apps.pngtest.CauseDonationsTest"/>-->
+<!--            <class name="apps.pngtest.ImpactTest"/>-->
+            <!--            <class name="apps.pngtest.GoodNewsTest"/>-->
+            <!--            <class name="apps.pngtest.LeadWithLoveTest"/>-->
+            <!--            <class name="apps.pngtest.EqualityAndInclusionTest"/>-->
+            <!--            <class name="apps.pngtest.SustainabilityTest"/>-->
+        </classes>
+    </test>
+</suite>
